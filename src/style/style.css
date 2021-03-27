@@ -1,46 +1,89 @@
 @import url("https://fonts.googleapis.com/css2?family=Roboto+Condensed:wght@300&display=swap");
 
 :root {
-  --primary-white: #ffffff;
-  --primary-orange: #f9ab00;
-  --primary-dark: rgba(255, 255, 255, 0);
-  --primary-yellow: #ffff00;
+  --primary-lightColor: #ffffff;
+  --primary-mainColor: #f9ab00;
 }
 
 body {
   font-family: "Roboto Condensed", sans-serif;
 }
 
-/* Navbar */
+/*-------------------- Navbar Logo-------------------- */
 .logo {
   height: 5rem;
+  margin-left: 0;
 }
-/* Navbar links */
-nav a.nav-link {
+/*-------------------- Navbar links --------------------*/
+nav .nav-link {
   letter-spacing: 0.0375rem;
   cursor: pointer;
 }
 nav ul li {
   text-transform: uppercase;
 }
-.navbar-nav > li > a {
-  margin-right: 0.75rem;
-  margin-left: 0.75rem;
-  color: var(--primary-white) !important;
-  border-bottom: 0.1875rem solid var(--primary-dark);
-}
+
 .navbar-brand {
-  max-width: 16.2rem;
+  max-width: 30%;
   padding: 0 !important;
 }
 
-.navbar-nav > li > a:hover {
-  border-bottom: 0.1875rem solid var(--primary-orange);
+.nav-link:hover {
+  border-bottom: 0.1875rem solid var(--primary-mainColor);
 }
-.navbar-nav > li > a.active,
-.navbar-nav > li > a:focus {
-  border-bottom: 0.1875rem solid var(--primary-orange);
+.nav-link.active,
+.nav-link:focus {
+  border-bottom: 0.1875rem solid var(--primary-mainColor);
 }
 .navbar-toggler-icon {
-  background-color: var(--primary-orange);
+  background-color: var(--primary-mainColor);
+}
+/* ---------------------Header-------------------- */
+.header-wraper {
+  position: relative;
+  background: url(../images/lg-bg-black.jpg) no-repeat;
+  background-size: cover;
+  background-position: center;
+  height: 90vh;
+}
+.main-info {
+  position: absolute;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  font-family: "Roboto Condensed", sans-serif;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+}
+.main-info h1 {
+  color: var(--primary-mainColor);
+  text-transform: uppercase;
+}
+.main-info p {
+  color: var(--primary-lightColor);
+  line-height: 3rem;
+  font-size: 130%;
+}
+/* ---------------------Header Main Offer Button------ */
+.btn-main-offer {
+  border: 3rem;
+  text-transform: uppercase;
+  border-radius: 10%;
+  margin: 4rem;
+  padding: 0.5rem;
+  background-color: var(--primary-mainColor);
+}
+.btn-main-offer:hover {
+  text-decoration: none;
+  transform: scale(1.1);
+}
+/* ---------------------Footer-------------------- */
+.footer-link {
+  color: var(--primary-lightColor);
+}
+.footer-link:hover {
+  color: var(--primary-mainColor);
 }
