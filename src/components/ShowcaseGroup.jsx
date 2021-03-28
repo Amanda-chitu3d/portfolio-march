@@ -6,7 +6,7 @@ function ShowcaseGroup() {
         <div><Container>
             <CardGroup>
   <Card>
-    <Card.Img variant="top" src="holder.js/100px160" />
+    <Card.Img variant="top" src="https://picsum.photos/100/140" />
     <Card.Body>
       <Card.Title>Card title</Card.Title>
       <Card.Text>
@@ -20,7 +20,7 @@ function ShowcaseGroup() {
     </Card.Footer>
   </Card>
   <Card>
-    <Card.Img variant="top" src="holder.js/100px160" />
+    <Card.Img variant="top" src="https://picsum.photos/100/120" />
     <Card.Body>
       <Card.Title>Card title</Card.Title>
       <Card.Text>
@@ -33,7 +33,7 @@ function ShowcaseGroup() {
     </Card.Footer>
   </Card>
   <Card>
-    <Card.Img variant="top" src="holder.js/100px160" />
+    <Card.Img variant="top" src="https://picsum.photos/100/110" />
     <Card.Body>
       <Card.Title>Card title</Card.Title>
       <Card.Text>

@@ -24,6 +24,7 @@ function Footer() {
             </ul>
             <ul className="list-unstyled">
                 <li><Link className="footer-link" to="/">About</Link></li>
+                <li><Link className="footer-link" to="/contact">Contact</Link></li>
                 <li><Link className="footer-link" to="/">Team</Link></li>
                 <li><Link className="footer-link" to="/">Locations</Link></li>
                 <li><Link className="footer-link" to="/">Privacy</Link></li>

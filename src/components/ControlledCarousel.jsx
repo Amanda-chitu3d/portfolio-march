@@ -24,7 +24,7 @@ function ControlledCarousel() {
       <Carousel.Item>
         <img
           className="d-block w-100"
-          src="https://picsum.photos/1800/960"
+          src="https://picsum.photos/1830/960"
           alt="Second slide"
         />
 
@@ -36,7 +36,7 @@ function ControlledCarousel() {
       <Carousel.Item>
         <img
           className="d-block w-100"
-          src="https://picsum.photos/1800/960"
+          src="https://picsum.photos/1850/960"
           alt="Third slide"
         />
 

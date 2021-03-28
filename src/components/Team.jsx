@@ -7,7 +7,7 @@ function Team() {
             <Container className="mt-2">
             <CardColumns>
   <Card>
-    <Card.Img variant="top" src="https://picsum.photos//100/160" />
+    <Card.Img variant="top" src="https://picsum.photos//100/110" />
     <Card.Body>
       <Card.Title>Card title that wraps to a new line</Card.Title>
       <Card.Text>
@@ -30,7 +30,7 @@ function Team() {
     </blockquote>
   </Card>
   <Card>
-    <Card.Img variant="top" src="https://picsum.photos//100/160" />
+    <Card.Img variant="top" src="https://picsum.photos//100/120" />
     <Card.Body>
       <Card.Title>Card title</Card.Title>
       <Card.Text>
@@ -57,7 +57,7 @@ function Team() {
     </blockquote>
   </Card>
   <Card className="text-center">
-  <Card.Img variant="top" src="https://picsum.photos//100/160" />
+  <Card.Img variant="top" src="https://picsum.photos//100/130" />
     <Card.Body>
       <Card.Title>Card title</Card.Title>
       <Card.Text>
@@ -73,7 +73,7 @@ function Team() {
     <Card.Img src="https://picsum.photos//100/160" />
   </Card>
   <Card className="text-right">
-  <Card.Img variant="top" src="https://picsum.photos//100/160" />
+  <Card.Img variant="top" src="https://picsum.photos//100/170" />
     <blockquote className="blockquote mb-0 card-body">
       <p>
         Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer posuere

@@ -6,9 +6,10 @@ import ControlledCarousel from '../components/ControlledCarousel';
 function Services() {
     return (
         <div>
+             <Hero/>
+            <Pricing/>
             <ControlledCarousel/>
             <Hero/>
-            <Pricing/>
         </div>
     )
 }

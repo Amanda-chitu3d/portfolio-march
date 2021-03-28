@@ -7,7 +7,7 @@ function ShowcaseDeck() {
             <Container className="mt-2">
             <CardDeck>
   <Card>
-    <Card.Img variant="top" src="https://picsum.photos/100/160" />
+    <Card.Img variant="top" src="https://picsum.photos/100/100" />
     <Card.Body>
       <Card.Title>Card title</Card.Title>
       <Card.Text>
@@ -21,7 +21,7 @@ function ShowcaseDeck() {
     </Card.Footer>
   </Card>
   <Card>
-    <Card.Img variant="top" src="https://picsum.photos/100/160" />
+    <Card.Img variant="top" src="https://picsum.photos/100/120" />
     <Card.Body>
       <Card.Title>Card title</Card.Title>
       <Card.Text>
@@ -35,7 +35,7 @@ function ShowcaseDeck() {
     </Card.Footer>
   </Card>
   <Card>
-    <Card.Img variant="top" src="https://picsum.photos/100/160" />
+    <Card.Img variant="top" src="https://picsum.photos/100/90" />
     <Card.Body>
       <Card.Title>Card title</Card.Title>
       <Card.Text>

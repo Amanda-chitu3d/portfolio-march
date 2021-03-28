@@ -6,6 +6,7 @@ import ShowcaseDeck from '../components/ShowcaseDeck';
 import Team from '../components/Team';
 import ControlledCarousel from '../components/ControlledCarousel';
 import Hero from '../components/Hero';
+import CustomerReview from '../components/CustomerReview';
 
 function Home() {
     return (
@@ -16,6 +17,7 @@ function Home() {
         <Container>
             <ControlledCarousel/>
         </Container>
+        <CustomerReview />
         <ShowcaseColumns/>
         <Team/>
 

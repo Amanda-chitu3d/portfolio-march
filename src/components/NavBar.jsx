@@ -29,12 +29,14 @@ const NavBar = () => {
       <li className="nav-item">
         <NavLink className="nav-link text-white" to="/doc">Doc</NavLink>
       </li>
+     
       <li className="nav-item">
-        <NavLink className="nav-link text-white" to="/about">About</NavLink>
+        <NavLink className="nav-link text-white" to="/register">Register</NavLink>
       </li>
       <li className="nav-item">
-        <NavLink className="nav-link text-white" to="/contact">Contact</NavLink>
+        <NavLink className="nav-link text-white" to="/login">Login</NavLink>
       </li>
+    
     </ul>
     <SearchBar/>
   </div>

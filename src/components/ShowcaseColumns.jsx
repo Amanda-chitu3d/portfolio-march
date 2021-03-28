@@ -7,7 +7,7 @@ function ShowcaseColumns() {
             <Container className="mt-2 mb-2">
             <CardColumns>
   <Card>
-    <Card.Img variant="top" src="https://picsum.photos/100/100" />
+    <Card.Img variant="top" src="https://picsum.photos/100/120" />
     <Card.Body>
       <Card.Title>Card title that wraps to a new line</Card.Title>
       <Card.Text>
@@ -17,7 +17,7 @@ function ShowcaseColumns() {
     </Card.Body>
   </Card>
   <Card className="p-3">
-  <Card.Img variant="top" src="https://picsum.photos/100/100" />
+  <Card.Img variant="top" src="https://picsum.photos/100/110" />
     <blockquote className="blockquote mb-0 card-body">
       <p>
         Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer posuere
@@ -31,7 +31,7 @@ function ShowcaseColumns() {
     </blockquote>
   </Card>
   <Card>
-    <Card.Img variant="top" src="https://picsum.photos/100/100" />
+    <Card.Img variant="top" src="https://picsum.photos/100/130" />
     <Card.Body>
       <Card.Title>Card title</Card.Title>
       <Card.Text>
@@ -44,7 +44,7 @@ function ShowcaseColumns() {
     </Card.Footer>
   </Card>
   <Card bg="primary" text="white" className="text-center p-3">
-  <Card.Img variant="top" src="https://picsum.photos/100/100" />
+  <Card.Img variant="top" src="https://picsum.photos/100/140" />
     <blockquote className="blockquote mb-0 card-body">
       <p>
         Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer posuere
@@ -70,7 +70,7 @@ function ShowcaseColumns() {
     </Card.Body>
   </Card>
   <Card>
-    <Card.Img src="https://picsum.photos/100/100" />
+    <Card.Img src="https://picsum.photos/100/150" />
   </Card>
   <Card className="text-right">
     <blockquote className="blockquote mb-0 card-body">
@@ -86,7 +86,7 @@ function ShowcaseColumns() {
     </blockquote>
   </Card>
   <Card>
-  <Card.Img variant="top" src="https://picsum.photos/100/100" />
+  <Card.Img variant="top" src="https://picsum.photos/100/90" />
     <Card.Body>
       <Card.Title>Card title</Card.Title>
       <Card.Text>
