@@ -24,9 +24,9 @@ function ContactForm() {
       We'll never share your email with anyone else.
     </Form.Text>
   </Form.Group>
-<Form.Group controlId="subject">
-    <Form.Label>Subject</Form.Label>
-    <Form.Control placeholder="I got wrong items of online order." />
+<Form.Group controlId="phoneNumber">
+    <Form.Label>Phone Number</Form.Label>
+    <Form.Control placeholder="+61451666888" />
   </Form.Group>
 
   <Form.Group controlId="messages">

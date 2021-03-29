@@ -6,13 +6,15 @@ function Hero() {
         <div>
           
           <Container className="mt-2 ">
-              <Card className="bg-warning">
+          
+              <Card className="text-center" border="light">
     <Card.Body>
       <Card.Title>A leading provider of IT services</Card.Title>
       <Card.Text>
       With us, you can reduce your tech workload while maximising your productivity and growth.
 
       </Card.Text>
+      
     </Card.Body>
   </Card>
   </Container>

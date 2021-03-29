@@ -1,10 +1,16 @@
 import React from 'react'
+import TagNav from '../components/TagNav';
+import JumbotronBanner from '../components/JumbotronBanner';
+import ProgressImg from '../components/ProgressImg';
+
 
 function Doc() {
     return (
         <div>
-            <h2>Doc</h2>
-            <p>Lorem ipsum dolor sit amet consectetur.</p>
+            <TagNav/>
+            <JumbotronBanner/>
+            <ProgressImg/>
+            
         </div>
     )
 }

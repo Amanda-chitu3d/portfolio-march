@@ -4,7 +4,7 @@ import { Button,Container,Card,ListGroup,CardGroup } from 'react-bootstrap';
 function Pricing() {
     return (
         
-        <Container className="mt-3 mb-3">
+        <Container className="mt-3 mb-3 text-center">
        
         <Card.Img variant="top" src="https://picsum.photos/1920/1080" />
            <Card border="light">

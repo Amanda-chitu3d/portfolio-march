@@ -6,13 +6,13 @@ import Projects from './page/Projects';
 import Doc from './page/Doc';
 import Contact from './page/Contact';
 import Footer from './components/Footer';
-
 import About from './page/About';
 import Register from './page/Register';
 import Login from './page/Login';
-
 import 'bootstrap/dist/css/bootstrap.min.css';
 import "./style/style.css"
+import Team from './components/Team';
+import AdminDashboard from './page/AdminDashboard';
 
 function App() {
   return (
@@ -28,6 +28,9 @@ function App() {
         <Route path="/contact"><Contact/></Route>
         <Route path="/register"><Register/></Route>
         <Route path="/login"><Login/></Route>
+        <Route path="/team"><Team/></Route>
+        <Route path="/admin"><Login/></Route>
+        <Route path="/admin-dashboard"><AdminDashboard/></Route>
       </Switch>
       <Footer/>
     </div>
