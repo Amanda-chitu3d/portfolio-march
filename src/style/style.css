@@ -1,12 +1,22 @@
 @import url("https://fonts.googleapis.com/css2?family=Roboto+Condensed:wght@300&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Noto+Serif:ital,wght@0,400;0,700;1,400;1,700&display=swap");
 
 :root {
   --primary-lightColor: #ffffff;
   --primary-mainColor: #f9ab00;
+  --errorColor: #ff4a4a;
+  --primary-picColor: #efb6b2;
+  --secondary-picColor: #4e4e4e;
 }
 
 body {
-  font-family: "Roboto Condensed", sans-serif;
+  /* font-family: "Roboto Condensed", sans-serif; */
+  font-family: "Noto Serif";
+  color: var(--secondary-picColor);
+}
+.app {
+  max-width: 960px;
+  margin: 0 auto;
 }
 
 /*-------------------- Navbar Logo-------------------- */
@@ -86,4 +96,34 @@ nav ul li {
 }
 .footer-link:hover {
   color: var(--primary-mainColor);
+}
+
+/* -------------PictureTitle--------------- */
+.title h1 {
+  color: var(--primary-picColor);
+  font-size: 1.2rem;
+  letter-spacing: 2px;
+  font-weight: normal;
+}
+
+.title h2,
+.title p {
+  text-align: center;
+}
+.title h2 {
+  margin-top: 60px;
+  font-size: 2.6rem;
+}
+/* login form/ */
+.loginForm {
+  height: 70vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+@media only screen and (max-width: 480px) {
+  .loginForm {
+    align-items: center;
+  }
 }

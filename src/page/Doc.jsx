@@ -1,7 +1,9 @@
 import React from 'react'
 import TagNav from '../components/TagNav';
 import JumbotronBanner from '../components/JumbotronBanner';
-import ProgressImg from '../components/ProgressImg';
+// import ProgressImg from '../components/ProgressImg';
+import PictureTitle from '../components/PictureTitle';
+// import UploadForm from '../components/UploadForm';
 
 
 function Doc() {
@@ -9,8 +11,8 @@ function Doc() {
         <div>
             <TagNav/>
             <JumbotronBanner/>
-            <ProgressImg/>
-            
+            <PictureTitle/>
+            {/* <UploadForm/> */}
         </div>
     )
 }

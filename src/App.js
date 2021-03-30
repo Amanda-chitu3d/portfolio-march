@@ -13,10 +13,12 @@ import 'bootstrap/dist/css/bootstrap.min.css';
 import "./style/style.css"
 import Team from './components/Team';
 import AdminDashboard from './page/AdminDashboard';
+import "./App.css"
+import RestaurantMenu from './page/RestaurantMenu';
 
 function App() {
   return (
-    <div >
+    <div className="apple">
       <NavBar />
       <Switch>
       <Redirect exact from="/home" to="/" />
@@ -31,6 +33,7 @@ function App() {
         <Route path="/team"><Team/></Route>
         <Route path="/admin"><Login/></Route>
         <Route path="/admin-dashboard"><AdminDashboard/></Route>
+        <Route path="/resturant/menu"><RestaurantMenu/></Route>
       </Switch>
       <Footer/>
     </div>

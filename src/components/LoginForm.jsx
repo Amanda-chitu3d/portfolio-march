@@ -4,7 +4,7 @@ import { Container } from 'react-bootstrap';
 
 function LoginForm() {
     return (
-        <div>
+        <div className="loginForm">
           <Container className="p-3">
           <Form>
   <Form.Group controlId="formBasicEmail">

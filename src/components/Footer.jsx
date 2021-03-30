@@ -3,7 +3,7 @@ import {Link} from "react-router-dom";
 
 function Footer() {
     return (
-        <footer className="footer bg-dark pt-4">
+        <footer className="footer bg-dark">
            <div className="pl-5 pr-5
              d-flex justify-content-between text-light ">
             <ul className="list-unstyled">
@@ -17,7 +17,7 @@ function Footer() {
             </ul>
             <ul className="list-unstyled">
                 <li><Link className="footer-link" to="/">Resources</Link></li>
-                <li><Link className="footer-link" to="/">Resources</Link></li>
+                <li><Link className="footer-link" to="/resturant/menu">Resturant Menu</Link></li>
                 <li><Link className="footer-link" to="/">Resources Name</Link></li>
                 <li><Link className="footer-link" to="/">Another Resouces</Link></li>
                 <li><Link className="footer-link" to="/">final Resource</Link></li>
