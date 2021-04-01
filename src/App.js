@@ -15,6 +15,7 @@ import Team from './components/Team';
 import AdminDashboard from './page/AdminDashboard';
 import "./App.css"
 import RestaurantMenu from './page/RestaurantMenu';
+import Reviews from './components/restaurantMenu/Reviews';
 
 function App() {
   return (
@@ -33,7 +34,8 @@ function App() {
         <Route path="/team"><Team/></Route>
         <Route path="/admin"><Login/></Route>
         <Route path="/admin-dashboard"><AdminDashboard/></Route>
-        <Route path="/resturant/menu"><RestaurantMenu/></Route>
+        <Route path="/restaurant/menu"><RestaurantMenu/></Route>
+        <Route path="/reviews"><Reviews/></Route>
       </Switch>
       <Footer/>
     </div>
