@@ -1,9 +1,6 @@
 import React from 'react'
 
 function BreakfastMenu() {
-    function handleClick(){
-
-    }
     return (
         <div className="section-center">
          
